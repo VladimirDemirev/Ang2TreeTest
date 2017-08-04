@@ -1,0 +1,7 @@
+<input type="text" [(ngModel)]="myfilter" /><button (click)="myFilterFunc()">filter</button>
+<br />
+<!-- 
+  (onBlur)="onSelectEvent($event)"  
+(onMoveNode)="onMoveNode($event)"
+-->
+<tree-root #tree [nodes]="nodes" [options]="options" ></tree-root>

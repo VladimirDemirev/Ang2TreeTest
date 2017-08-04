@@ -1,0 +1,32 @@
+#block_container
+{
+    text-align:center;
+}
+.bloc
+{
+    display:inline;
+    /* border: 1px solid #000000; */
+}
+#bloc1
+{
+    float: left;
+    background: skyblue;
+    width: 300px;
+}
+#bloc2
+{
+    float: left;
+    background: lightgreen;
+    width: 300px;
+}
+#bloc-mid
+{
+    float: left;
+    width: 100px;
+}
+
+.tree-header {
+    width: 200px;
+    float: left;
+    background: #8866ff;
+}
