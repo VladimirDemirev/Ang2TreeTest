@@ -2,15 +2,14 @@
 Experiment with Angular Tree Component from https://angular2-tree.readme.io
 
 ## This test demonstrates:
-
-- tree display / populate from JSON
-- show two trees in same page
-- filter tree
-- select node, muilti select
-- drag drop between same tree / between two trees
-- DRAG & DROP - single/multi node
-
-? - show two custom icons on the RIGHT side (type icon, DEL button)
+- Angular 2+ compatible
+- Typescript support
+- to be able to have more than one component instances in same page
+- to support filtering
+- to support selection and multi-select
+- to support Drag & Drop between the same tree and between multiple tree components
+- CSS customization
+- Custom icons at node level
 
 *A NOTE*
 the app does not pretend to be polished and dummy-friendly :) It just investigates the abilities of the component.

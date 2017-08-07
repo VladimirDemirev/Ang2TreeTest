@@ -4,4 +4,10 @@
   (onBlur)="onSelectEvent($event)"  
 (onMoveNode)="onMoveNode($event)"
 -->
-<tree-root #tree [nodes]="nodes" [options]="options" ></tree-root>
+<tree-root #tree [nodes]="nodes" [options]="options" >
+  <ng-template #treeNodeTemplate let-node let-index="index">
+    <span class="mynode-text">{{ node.data.name }}</span>
+    &nbsp;
+    <button (click)="btn1($event)" class="mynode-btn1">BTN</button>  
+  </ng-template>
+</tree-root>

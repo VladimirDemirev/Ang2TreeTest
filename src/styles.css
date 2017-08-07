@@ -1,0 +1,19 @@
+.node-content-wrapper {
+    width: 100%;
+    text-align: left;
+}
+
+tree-node-content {
+    display:block;
+    width: 100%;
+}
+
+
+.mynode-btn1 {
+    position:absolute;
+    right: 1em;
+}
+
+.mynode-text {
+
+}

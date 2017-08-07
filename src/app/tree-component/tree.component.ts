@@ -85,7 +85,8 @@ export class MyTreeComponent implements OnInit
         //this.tree.treeModel.setActiveNode( this.tree.treeModel.getNodeById(4) , true, true);
     }
 
-    // onMoveNode($event) {
-    // console.log();
-    // }
+    public btn1($event: any) : void
+    {
+        window.alert('CLICK !!!');
+    }
 }
